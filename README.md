@@ -29,5 +29,5 @@ simbot:
 以及，记得关闭账号中与“设备锁”、“安全保护”等相关内容。
 
 ### 协助
-如果你有一个好的示例点子，你可以通过[github pr](https://github.com/simple-robot/simbot-mirai-demo/pulls) 来协助此demo项目的更新。
+如果你有一个好的示例点子，你可以通过[github pr](https://github.com/simple-robot/simbot-mirai-demo/pulls) 来协该框架下demo项目的更新。
 
