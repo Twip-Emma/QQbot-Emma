@@ -1,5 +1,23 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-07-27 21:29:18
+ * @LastEditTime: 2021-07-27 21:40:16
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \MarkDown\Emma.md
+-->
 # simbot Demo - Mirai
 
+## 注意
+>- 本仓库是本人照搬了一个demo
+>- 本人自己学习编写的插件将会放在*src/main/java/love/simbot/example/text*中
+
+### 自行编写目前已实现的功能
+>- 私聊机器人，控制台输出**芜湖起飞**，并复读
+>- 在群内发送hi、mua，机器人复读
+
+
+## 以下为原内容
 这是[simple-robot](https://github.com/ForteScarlet/simpler-robot) 框架使用[mirai组件](https://github.com/ForteScarlet/simpler-robot/tree/dev/component/component-mirai) 对接[Mirai](https://github.com/mamoe/mirai) 的Demo项目。
 
 ## 需要做的
