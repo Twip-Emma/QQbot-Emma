@@ -33,7 +33,7 @@ simbot:
 ```
 
 ### 保证安静
-将你的bot放在一些测试用的群而不是一些大型群。
+将你的bot放在一些测试用的群而不是一些大型群。 
 
 ### 阅读
 - [listener](src/main/java/love/simbot/example/listener) 包下为一些监听函数示例。阅读它们的注释，并可以试着修改它们。
