@@ -29,7 +29,7 @@ fork或者clone此项目到你的本地，并使用IDE工具打开并构建它�
 ```yaml
 simbot: 
   core:
-    bots: 123456789:password
+    bots: 123456789:password 
 ```
 
 ### 保证安静
