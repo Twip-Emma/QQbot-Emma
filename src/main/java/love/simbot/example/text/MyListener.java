@@ -12,15 +12,15 @@ import love.forte.simbot.filter.MatchType;
 @Beans
 public class MyListener {
 
-    @OnPrivate
+    @OnPrivate//模板注解监听私聊消息
     public void privateMsg(PrivateMsg privateMsg, MsgSender sender) {
         sender.SENDER.sendPrivateMsg(privateMsg, privateMsg.getMsgContent());
-        System.out.println("芜湖起飞");
     }
 
-    @OnGroup
-    @Filter(value = "hi", matchType = MatchType.STARTS_WITH)
-    public void groupMsg(GroupMsg groupMsg, MsgSender sender) {
-        sender.SENDER.sendGroupMsg(groupMsg, groupMsg.getMsgContent());
+    @OnPrivate//模板注解监听群聊消息
+    @Filter(value = "亲亲", trim = true, matchType = MatchType.CONTAINS)
+    @Filter(value = "mua", trim = true, matchType = MatchType.CONTAINS)
+    public void groupMsg(PrivateMsg privateMsg, MsgSender sender) {
+        sender.SENDER.sendPrivateMsg(privateMsg, "亲亲~");
     }
 }
