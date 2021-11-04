@@ -11,7 +11,6 @@ import love.forte.simbot.api.message.MessageContentBuilder;
 import love.forte.simbot.api.message.MessageContentBuilderFactory;
 import love.forte.simbot.api.message.events.PrivateMsg;
 import love.forte.simbot.api.sender.MsgSender;
-import love.forte.simbot.api.sender.Sender;
 import love.forte.simbot.filter.MatchType;
 
 import java.util.List;

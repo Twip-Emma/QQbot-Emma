@@ -23,4 +23,10 @@ public class MyListener {
     public void groupMsg(PrivateMsg privateMsg, MsgSender sender) {
         sender.SENDER.sendPrivateMsg(privateMsg, "亲亲~");
     }
+
+    @OnPrivate//模板注解监听群聊消息
+    @Filter(value = "测试", trim = true, matchType = MatchType.CONTAINS)
+    public void groupMsg2(PrivateMsg privateMsg, MsgSender sender) {
+        sender.SENDER.sendPrivateMsg(privateMsg, "这是测试结果~");
+    }
 }
